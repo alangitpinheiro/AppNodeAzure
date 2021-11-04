@@ -22,6 +22,12 @@ app.get('/palmeiras', (req, res) => {
   res.send('Não tem Mundial')
 })
 
+app.get('/calcAtletico', (req, res) => {
+  /* TODA A LÓGICA DE CALCULO */
+  res.send('O Atlético nunca ganhará')
+})
+
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
